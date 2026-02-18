@@ -2,6 +2,8 @@
 
 🤖 自动化AI内容创作归档项目
 
+📦 **GitHub仓库**：https://github.com/cosysun/AI-Content-Archive
+
 这个仓库用于存档每天自动生成的AI内容（微信公众号文章、小红书文章、视频脚本）。
 
 ## 📂 项目结构
