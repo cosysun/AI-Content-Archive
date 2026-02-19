@@ -1,0 +1,119 @@
+{
+  "date": "2026-02-19",
+  "channel_focus": {
+    "ai_knowledge": "AI知识科普",
+    "outbound_app": "出海App",
+    "ai_startup": "AI创业"
+  },
+  "info_sources": {
+    "brave_search": {
+      "name": "Brave Search (Google News)",
+      "keywords": [
+        "AI breakthrough",
+        "AI startup funding",
+        "AI app international",
+        "machine learning tutorial",
+        "generative AI news"
+      ]
+    },
+    "x_twitter": {
+      "name": "X (Twitter) Trending",
+      "accounts": [
+        "@sama",
+        "@karpathy",
+        "@goodside",
+        "@pengcheng_ai",
+        "@weights_biases"
+      ]
+    },
+    "github": {
+      "name": "GitHub Trending",
+      "categories": [
+        "ai",
+        "machine-learning",
+        "deep-learning"
+      ]
+    },
+    "product_hunt": {
+      "name": "Product Hunt",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "productivity"
+      ]
+    },
+    "hacker_news": {
+      "name": "Hacker News",
+      "keywords": [
+        "AI",
+        "ML",
+        "GPT",
+        "LLM"
+      ]
+    }
+  },
+  "proposals": [
+    {
+      "id": "topic_001",
+      "title": "DeepSeek-V3开源震撼：中国AI大模型首次超越GPT-4",
+      "category": "ai_knowledge",
+      "heat_score": 9,
+      "sources": [
+        "GitHub Trending",
+        "X/Twitter",
+        "Hacker News"
+      ],
+      "keywords": [],
+      "target_platforms": [
+        "微信公众号",
+        "小红书",
+        "抖音"
+      ],
+      "estimated_reading_time": "5-8分钟",
+      "seo_potential": "high",
+      "monetization_potential": "medium",
+      "timestamp": "2026-02-19T09:33:55.047331"
+    },
+    {
+      "id": "topic_002",
+      "title": "Cursor编辑器出海爆红：AI编程工具月收入破千万美元",
+      "category": "outbound_app",
+      "heat_score": 8,
+      "sources": [
+        "Product Hunt",
+        "X/Twitter"
+      ],
+      "keywords": [],
+      "target_platforms": [
+        "微信公众号",
+        "小红书",
+        "抖音"
+      ],
+      "estimated_reading_time": "5-8分钟",
+      "seo_potential": "high",
+      "monetization_potential": "medium",
+      "timestamp": "2026-02-19T09:33:55.047331"
+    },
+    {
+      "id": "topic_003",
+      "title": "AI创业者必看：YC 2024冬季营Demo Day十大AI项目解析",
+      "category": "ai_startup",
+      "heat_score": 7,
+      "sources": [
+        "Hacker News",
+        "X/Twitter"
+      ],
+      "keywords": [],
+      "target_platforms": [
+        "微信公众号",
+        "小红书",
+        "抖音"
+      ],
+      "estimated_reading_time": "5-8分钟",
+      "seo_potential": "high",
+      "monetization_potential": "medium",
+      "timestamp": "2026-02-19T09:33:55.047331"
+    }
+  ],
+  "generated_at": "2026-02-19T09:33:55.047331"
+}

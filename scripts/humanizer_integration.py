@@ -111,27 +111,40 @@ def humanize_file(input_path, output_path):
 def process_daily_content(date_str=None):
     """处理每日生成的内容"""
     if date_str is None:
-        date_str = datetime.now().strftime("%Y%m%d")
+        date_str = datetime.now().strftime("%Y-%m-%d")
     
-    base_dir = Path(__file__).parent
-    output_dir = base_dir / "output"
+    # 支持两种日期格式：YYYY-MM-DD 和 YYYYMMDD
+    if '-' not in date_str and len(date_str) == 8:
+        # 转换 YYYYMMDD -> YYYY-MM-DD
+        date_str = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
     
-    files_to_process = [
-        (f"{date_str}_wechat_article.md", f"{date_str}_wechat_article_humanized.md"),
-        (f"{date_str}_xiaohongshu_post.md", f"{date_str}_xiaohongshu_post_humanized.md"),
-        (f"{date_str}_video_script.md", f"{date_str}_video_script_humanized.md"),
-    ]
+    base_dir = Path(__file__).parent.parent  # 上一级目录
+    output_dir = base_dir / "output" / date_str  # 日期子目录
+    
+    if not output_dir.exists():
+        print(f"[!] 目录不存在: {output_dir}")
+        return 0
+    
+    # 查找所有markdown文件（排除已humanized的）
+    all_md_files = [f for f in output_dir.glob("*.md") if "_humanized" not in f.name]
+    
+    if not all_md_files:
+        print(f"[!] 未找到需要处理的文件")
+        return 0
     
     processed_count = 0
     
     print(f"\n>>> 开始处理 {date_str} 的内容...\n")
+    print(f"工作目录: {output_dir}\n")
     
-    for input_name, output_name in files_to_process:
-        input_path = output_dir / input_name
+    for input_path in all_md_files:
+        input_name = input_path.name
+        output_name = input_name.replace(".md", "_humanized.md")
         output_path = output_dir / output_name
         
-        if not input_path.exists():
-            print(f"[!] 文件不存在: {input_name}")
+        # 如果已经是humanized版本，跳过
+        if output_path.exists():
+            print(f"[SKIP] 已存在: {output_name}")
             continue
         
         print(f"[>] 处理: {input_name}")
@@ -141,7 +154,7 @@ def process_daily_content(date_str=None):
         else:
             print(f"[FAIL] 失败: {input_name}")
     
-    print(f"\n>>> 处理完成！成功处理 {processed_count}/{len(files_to_process)} 个文件")
+    print(f"\n>>> 处理完成！成功处理 {processed_count} 个文件")
     
     return processed_count
 
