@@ -8,112 +8,140 @@
   "info_sources": {
     "brave_search": {
       "name": "Brave Search (Google News)",
-      "keywords": [
-        "AI breakthrough",
-        "AI startup funding",
-        "AI app international",
-        "machine learning tutorial",
-        "generative AI news"
-      ]
-    },
-    "x_twitter": {
-      "name": "X (Twitter) Trending",
-      "accounts": [
-        "@sama",
-        "@karpathy",
-        "@goodside",
-        "@pengcheng_ai",
-        "@weights_biases"
-      ]
+      "used": true,
+      "keywords": ["AI breakthrough", "AI startup funding", "AI app international"]
     },
     "github": {
       "name": "GitHub Trending",
-      "categories": [
-        "ai",
-        "machine-learning",
-        "deep-learning"
-      ]
+      "used": true,
+      "hot_repos": ["openclaw/openclaw", "obra/superpowers", "QwenLM/qwen-code"]
     },
     "product_hunt": {
       "name": "Product Hunt",
-      "tags": [
-        "ai",
-        "machine-learning",
-        "productivity"
-      ]
+      "used": true,
+      "hot_products": ["Claude Opus 4.6", "Supaboard", "PostSyncer"]
+    },
+    "x_twitter": {
+      "name": "X (Twitter)",
+      "used": true,
+      "hot_accounts": ["@karpathy", "@sama"]
     },
     "hacker_news": {
       "name": "Hacker News",
-      "keywords": [
-        "AI",
-        "ML",
-        "GPT",
-        "LLM"
-      ]
+      "used": true
     }
   },
   "proposals": [
     {
       "id": "topic_001",
-      "title": "DeepSeek-V3开源震撼：中国AI大模型首次超越GPT-4",
+      "title": "Karpathy一条推文引发的AI\"九级地震\"：开发者如何不被淘汰？",
       "category": "ai_knowledge",
       "heat_score": 9,
-      "sources": [
-        "GitHub Trending",
-        "X/Twitter",
-        "Hacker News"
-      ],
-      "keywords": [],
-      "target_platforms": [
-        "微信公众号",
-        "小红书",
-        "抖音"
-      ],
-      "estimated_reading_time": "5-8分钟",
+      "sources": ["X/Twitter", "Hacker News", "百度新闻"],
+      "keywords": ["Karpathy", "AI开发范式", "开发者转型", "10x效率", "Agent编排"],
+      "target_platforms": ["微信公众号", "小红书", "抖音"],
+      "estimated_reading_time": "6-8分钟",
       "seo_potential": "high",
       "monetization_potential": "medium",
-      "timestamp": "2026-02-19T09:33:55.047331"
+      "urgency": "high",
+      "highlights": [
+        "OpenAI创始成员都感到'严重落后'，引发开发者焦虑",
+        "70-90%代码由AI生成（Ramp案例）",
+        "提供具体转型路径（从写代码到编排Agent）"
+      ]
     },
     {
       "id": "topic_002",
-      "title": "Cursor编辑器出海爆红：AI编程工具月收入破千万美元",
-      "category": "outbound_app",
+      "title": "Anthropic融资300亿美元，估值3800亿！AI创业进入\"赢家通吃\"时代",
+      "category": "ai_startup",
       "heat_score": 8,
-      "sources": [
-        "Product Hunt",
-        "X/Twitter"
-      ],
-      "keywords": [],
-      "target_platforms": [
-        "微信公众号",
-        "小红书",
-        "抖音"
-      ],
-      "estimated_reading_time": "5-8分钟",
+      "sources": ["Brave Search", "腾讯新闻", "Venture Capital News"],
+      "keywords": ["Anthropic", "Claude Opus 4.6", "AI融资", "创业寡头时代", "540亿美元"],
+      "target_platforms": ["微信公众号", "小红书", "抖音"],
+      "estimated_reading_time": "7-9分钟",
       "seo_potential": "high",
-      "monetization_potential": "medium",
-      "timestamp": "2026-02-19T09:33:55.047331"
+      "monetization_potential": "high",
+      "urgency": "high",
+      "highlights": [
+        "2个月17家公司融资540亿，单笔最高300亿",
+        "北京占中国AI融资40%（2800亿人民币）",
+        "估值100倍收入倍数，泡沫还是未来？"
+      ]
     },
     {
       "id": "topic_003",
-      "title": "AI创业者必看：YC 2024冬季营Demo Day十大AI项目解析",
-      "category": "ai_startup",
-      "heat_score": 7,
-      "sources": [
-        "Hacker News",
-        "X/Twitter"
-      ],
-      "keywords": [],
-      "target_platforms": [
-        "微信公众号",
-        "小红书",
-        "抖音"
-      ],
-      "estimated_reading_time": "5-8分钟",
+      "title": "OpenClaw登顶GitHub（20万星标）：你的AI助手为什么还不如它？",
+      "category": "outbound_app",
+      "heat_score": 9,
+      "sources": ["GitHub Trending", "Product Hunt", "Hacker News"],
+      "keywords": ["OpenClaw", "AI助手", "跨平台", "个人助理", "开源工具"],
+      "target_platforms": ["微信公众号", "小红书", "抖音"],
+      "estimated_reading_time": "5-7分钟",
       "seo_potential": "high",
       "monetization_potential": "medium",
-      "timestamp": "2026-02-19T09:33:55.047331"
+      "urgency": "medium",
+      "highlights": [
+        "GitHub今日新增3805星，总星标208,913",
+        "跨平台（Windows/Mac/Linux）个人AI助手",
+        "'The lobster way'品牌化，国际化命名"
+      ]
+    },
+    {
+      "id": "topic_004",
+      "title": "中国首颗AI卫星上天！从\"CUHK-1\"看AI如何重构太空产业",
+      "category": "ai_knowledge",
+      "heat_score": 7,
+      "sources": ["Brave Search", "国家科技基础设施", "新华社"],
+      "keywords": ["AI卫星", "CUHK-1", "太空AI", "遥感技术", "城市可持续发展"],
+      "target_platforms": ["微信公众号", "小红书"],
+      "estimated_reading_time": "6-8分钟",
+      "seo_potential": "medium",
+      "monetization_potential": "low",
+      "urgency": "low",
+      "highlights": [
+        "中国首颗AI驱动的城市可持续发展卫星",
+        "高分辨率遥感 + 星载AI实时处理",
+        "Nature发表，国际认可"
+      ]
+    },
+    {
+      "id": "topic_005",
+      "title": "Claude Opus 4.6 vs Kimi Agent Swarms：谁是2026年最强AI工具？",
+      "category": "ai_knowledge",
+      "heat_score": 8,
+      "sources": ["Product Hunt", "Brave Search", "AI新闻"],
+      "keywords": ["Claude Opus 4.6", "Kimi AI 2.5", "Agent Swarms", "100万token", "对比测评"],
+      "target_platforms": ["微信公众号", "小红书", "抖音"],
+      "estimated_reading_time": "8-10分钟",
+      "seo_potential": "high",
+      "monetization_potential": "high",
+      "urgency": "medium",
+      "highlights": [
+        "海外王者Claude vs 国产新秀Kimi",
+        "100万token上下文、Agent群体协作",
+        "5大场景实测：代码重构、市场调研、法律分析"
+      ]
     }
   ],
-  "generated_at": "2026-02-19T09:33:55.047331"
+  "recommendation": {
+    "by_heat": ["topic_001", "topic_003", "topic_002", "topic_005", "topic_004"],
+    "by_commercial": ["topic_002", "topic_005", "topic_001", "topic_003", "topic_004"],
+    "by_urgency": ["topic_001", "topic_002", "topic_003", "topic_005", "topic_004"],
+    "best_for_beginners": "topic_003",
+    "best_for_professionals": "topic_004",
+    "best_for_entrepreneurs": "topic_002"
+  },
+  "statistics": {
+    "total_proposals": 5,
+    "by_category": {
+      "ai_knowledge": 3,
+      "outbound_app": 1,
+      "ai_startup": 1
+    },
+    "avg_heat_score": 8.2,
+    "high_seo_count": 4,
+    "high_monetization_count": 2
+  },
+  "generated_at": "2026-02-19T09:38:00+08:00",
+  "valid_until": "2026-02-21T09:38:00+08:00"
 }
