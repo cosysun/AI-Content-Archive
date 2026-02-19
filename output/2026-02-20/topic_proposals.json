@@ -1,0 +1,153 @@
+{
+  "date": "2026-02-20",
+  "collection_time": "2026-02-20 07:00:16",
+  "sources": [
+    "Brave Search (AI News)",
+    "GitHub Trending",
+    "X/Twitter Trends",
+    "Product Hunt"
+  ],
+  "channel_positioning": [
+    "AI知识科普",
+    "出海App",
+    "AI创业"
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "title": "xAI的Grok 4.2 \"四人辩论团\"：AI吵架能提高智商吗？",
+      "category": "AI知识科普",
+      "heat_score": 9,
+      "timeliness": "超高",
+      "main_keyword": "Grok 4.2",
+      "keywords": ["Grok 4.2", "多智能体", "AI辩论", "xAI", "马斯克"],
+      "seo_potential": 5,
+      "commercial_potential": 4,
+      "risk_level": "中等",
+      "core_news": "Grok 4.2 Beta今日发布，首创四智能体内部辩论机制，股票模拟交易47%收益率",
+      "target_audience": ["AI技术爱好者", "创业者", "普通用户"],
+      "estimated_performance": {
+        "wechat_reads": "6000-10000",
+        "xiaohongshu_likes": "600-1200",
+        "douyin_views": "30000-80000"
+      }
+    },
+    {
+      "id": 2,
+      "title": "GitHub新晋黑马Heretic：一键\"解放\"AI大模型的审查工具",
+      "category": "出海App",
+      "heat_score": 8,
+      "timeliness": "高",
+      "main_keyword": "Heretic",
+      "keywords": ["Heretic", "GitHub Trending", "AI审查", "开源模型", "定向消融"],
+      "seo_potential": 5,
+      "commercial_potential": 3,
+      "risk_level": "高",
+      "core_news": "Heretic项目获得8.1k星标，使用定向消融技术自动移除语言模型的内容审查机制",
+      "target_audience": ["开发者", "出海创业者", "技术伦理关注者"],
+      "estimated_performance": {
+        "wechat_reads": "4000-7000",
+        "xiaohongshu_likes": "400-800",
+        "douyin_views": "20000-50000"
+      }
+    },
+    {
+      "id": 3,
+      "title": "GLM-5技术报告解读：智谱AI的\"DSA黑科技\"如何降低训练成本？",
+      "category": "AI知识科普",
+      "heat_score": 8,
+      "timeliness": "高",
+      "main_keyword": "GLM-5",
+      "keywords": ["GLM-5", "DSA技术", "智谱AI", "国产大模型", "技术报告"],
+      "seo_potential": 4,
+      "commercial_potential": 4,
+      "risk_level": "低",
+      "core_news": "智谱AI发布GLM-5技术报告，披露DSA技术细节，支持跨文件代码重构",
+      "target_audience": ["技术从业者", "AI创业者", "投资人"],
+      "estimated_performance": {
+        "wechat_reads": "3000-6000",
+        "xiaohongshu_likes": "300-600",
+        "douyin_views": "15000-40000"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Moltbook：AI社交网络火了，人类只能围观？",
+      "category": "出海App + AI创业",
+      "heat_score": 8,
+      "timeliness": "高",
+      "main_keyword": "Moltbook",
+      "keywords": ["Moltbook", "AI社交网络", "Product Hunt", "AI Agent", "Reddit"],
+      "seo_potential": 5,
+      "commercial_potential": 5,
+      "risk_level": "低",
+      "core_news": "Moltbook登上Product Hunt周榜前三，定位为Reddit风格的AI Agent专属社交网络，人类只能观察",
+      "target_audience": ["AI创业者", "产品经理", "出海团队", "科幻爱好者"],
+      "estimated_performance": {
+        "wechat_reads": "5000-8000",
+        "xiaohongshu_likes": "500-1000",
+        "douyin_views": "20000-50000"
+      },
+      "recommended": true,
+      "recommendation_rank": 1,
+      "recommendation_reason": "覆盖双定位，产品新颖有趣，风险低，可视化内容丰富"
+    },
+    {
+      "id": 5,
+      "title": "MedOS：斯坦福+NVIDIA的\"医疗版ChatGPT\"，AI能动手术了？",
+      "category": "AI知识科普 + AI创业",
+      "heat_score": 9,
+      "timeliness": "超高",
+      "main_keyword": "MedOS",
+      "keywords": ["MedOS", "AI医生", "具身智能", "斯坦福", "NVIDIA", "医疗AI"],
+      "seo_potential": 5,
+      "commercial_potential": 5,
+      "risk_level": "中等",
+      "core_news": "斯坦福、普林斯顿与NVIDIA联合发布MedOS，全球首个通用医疗具身世界模型，AI能理解物理世界并执行治疗",
+      "target_audience": ["医疗从业者", "AI创业者", "投资人", "普通用户"],
+      "estimated_performance": {
+        "wechat_reads": "8000-12000",
+        "xiaohongshu_likes": "800-1500",
+        "douyin_views": "50000-100000"
+      },
+      "recommended": true,
+      "recommendation_rank": 2,
+      "recommendation_reason": "超高热度，医疗话题受众广，商业化潜力最高"
+    }
+  ],
+  "recommendation_matrix": {
+    "追热点流量": [1, 5],
+    "技术深度": [3],
+    "出海案例": [2, 4],
+    "商业变现": [4, 5],
+    "安全稳妥": [3, 5],
+    "话题性传播": [1, 4]
+  },
+  "top_recommendations": [
+    {
+      "rank": 1,
+      "topic_id": 4,
+      "title": "Moltbook：AI社交网络火了，人类只能围观？"
+    },
+    {
+      "rank": 2,
+      "topic_id": 5,
+      "title": "MedOS：斯坦福+NVIDIA的\"医疗版ChatGPT\"，AI能动手术了？"
+    },
+    {
+      "rank": 3,
+      "topic_id": 1,
+      "title": "xAI的Grok 4.2 \"四人辩论团\"：AI吵架能提高智商吗？"
+    }
+  ],
+  "statistics": {
+    "total_topics": 5,
+    "high_heat_topics": 2,
+    "medium_heat_topics": 3,
+    "low_risk_topics": 2,
+    "medium_risk_topics": 2,
+    "high_risk_topics": 1,
+    "collection_duration": "10分钟",
+    "sources_count": 23
+  }
+}
