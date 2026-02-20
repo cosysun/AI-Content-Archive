@@ -90,8 +90,9 @@ AI 内容创作自动化工作流 - 从选题到发布的完整流程
 |------|------|------|
 | 6.1 | Humanizer 检查 | 24 种模式检测 |
 | 6.2 | 你审阅 | 调整确认 |
-| 6.3 | 保存 | GitHub 每日目录 |
-| 6.4 | 可选 | baoyu-post-to-wechat 发布 |
+| 6.3 | 封面 Prompt | 生成配图 Prompt |
+| 6.4 | 保存 | GitHub 每日目录 |
+| 6.5 | 可选 | baoyu-post-to-wechat 发布 |
 
 ---
 
@@ -124,9 +125,24 @@ AI 内容创作自动化工作流 - 从选题到发布的完整流程
 |------|------|
 | Brave Search | 信息搜索 |
 | Humanizer | 去 AI 味 |
+| baoyu-cover-image | 封面图生成 |
 | baoyu-post-to-wechat | 公众号发布 |
 | baoyu-xhs-images | 小红书图文 |
-| baoyu-cover-image | 封面图 |
+| baoyu-infographic | 信息图生成 |
+
+---
+
+## 封面 Prompt 生成
+
+基于 baoyu-cover-image 技能，生成 3 个不同风格的封面 Prompt：
+
+| 维度 | 选项 |
+|------|------|
+| --type | hero, conceptual, typography, metaphor, scene, minimal |
+| --palette | warm, elegant, cool, dark, earth, vivid, pastel, mono, retro |
+| --rendering | flat-vector, hand-drawn, painterly, digital, pixel, chalk |
+| --mood | subtle, balanced, bold |
+| --aspect | 16:9, 2.35:1, 4:3, 1:1 |
 
 ---
 
