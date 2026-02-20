@@ -90,9 +90,19 @@ AI 内容创作自动化工作流 - 从选题到发布的完整流程
 |------|------|------|
 | 6.1 | Humanizer 检查 | 24 种模式检测 |
 | 6.2 | 你审阅 | 调整确认 |
-| 6.3 | 封面 Prompt | 生成配图 Prompt |
+| 6.3 | 封面 Prompt | 生成 3 个方案，你选 1 个 |
 | 6.4 | 保存 | GitHub 每日目录 |
 | 6.5 | 可选 | baoyu-post-to-wechat 发布 |
+
+### 封面图生成
+
+**方式一：Claude Code 本地**
+- 使用 baoyu-cover-image skill
+- 需要本地安装 Claude Code
+
+**方式二：AI 生图工具（当前使用）**
+- 生成 3 个风格方案 Prompt
+- 你选好后，复制到 Midjourney / DALL-E / Google Imagen 等工具生图
 
 ---
 
