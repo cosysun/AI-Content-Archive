@@ -1,0 +1,74 @@
+[
+  {
+    "source": "HackerNews",
+    "title": "Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
+    "url": "https://github.com/ggml-org/llama.cpp/discussions/19759",
+    "score": 690,
+    "comments": 172,
+    "timestamp": "2026-02-21T12:56:28.409625",
+    "heat": 2068,
+    "categories": [
+      "AI科普"
+    ]
+  },
+  {
+    "source": "HackerNews",
+    "title": "Cord: Coordinating Trees of AI Agents",
+    "url": "https://www.june.kim/cord",
+    "score": 47,
+    "comments": 15,
+    "timestamp": "2026-02-21T12:56:29.228234",
+    "heat": 154,
+    "categories": [
+      "AI科普"
+    ]
+  },
+  {
+    "source": "HackerNews",
+    "title": "Every company building your AI assistant is now an ad company",
+    "url": "https://juno-labs.com/blogs/every-company-building-your-ai-assistant-is-an-ad-company",
+    "score": 133,
+    "comments": 62,
+    "timestamp": "2026-02-21T12:56:30.971492",
+    "heat": 514,
+    "categories": [
+      "AI科普"
+    ]
+  },
+  {
+    "source": "HackerNews",
+    "title": "Excessive token usage in Claude Code",
+    "url": "https://github.com/anthropics/claude-code/issues/16856",
+    "score": 32,
+    "comments": 6,
+    "timestamp": "2026-02-21T12:56:31.394719",
+    "heat": 88,
+    "categories": [
+      "AI编程"
+    ]
+  },
+  {
+    "source": "HackerNews",
+    "title": "The path to ubiquitous AI (17k tokens/sec)",
+    "url": "https://taalas.com/the-path-to-ubiquitous-ai/",
+    "score": 691,
+    "comments": 397,
+    "timestamp": "2026-02-21T12:56:35.550422",
+    "heat": 2970,
+    "categories": [
+      "AI科普"
+    ]
+  },
+  {
+    "source": "HackerNews",
+    "title": "Making frontier cybersecurity capabilities available to defenders",
+    "url": "https://www.anthropic.com/news/claude-code-security",
+    "score": 107,
+    "comments": 50,
+    "timestamp": "2026-02-21T12:56:36.327671",
+    "heat": 414,
+    "categories": [
+      "AI科普"
+    ]
+  }
+]
